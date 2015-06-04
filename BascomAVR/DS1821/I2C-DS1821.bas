@@ -40,9 +40,9 @@ Led Alias Portb.4
 
 ' Bascom uses 8 bit i2c address (7 bit shifted to the left with one bit
 '
-' Example: &H48 is used by Bascom for I2C address &H24
+' Example: &H4A is used by Bascom for I2C address &H25
 '
-Config Usi = Twislave , Address = &H48
+Config Usi = Twislave , Address = &H4A
 
 Config Relais = Output
 Config Led = Output
